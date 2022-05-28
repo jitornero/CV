@@ -142,6 +142,7 @@ max-height: inherit;
 
 
 
-.tile-hoover {
-
+.hoover {
+transform: scale(1.2);
+border-color: blue;
 }
