@@ -1,20 +1,34 @@
 
 
-const tile1 = document.querySelector('#c1');
+const tile1 = document.querySelectorAll('.card');
 console.log(tile1);
 
+tile1.forEach((tile1) => {
 
+    tile1.addEventListener("mouseover", function(){
 
+        tile1.style.borderColor = 'black';
+    });
+    
+    tile1.addEventListener("mouseout", function(){
+    
+        tile1.style.borderColor = '';
+    });
 
+})
 
-tile1.addEventListener("mouseover", function(){
+const link = document.querySelector(".header-link");
 
-    tile1.style.borderColor = 'black';
-});
+link.addEventListener("mouseover", function(){
 
+    // link.style.backgroundColor = "black";
+    link.style.color = 'white';
+    link.style.fontSize = "110%";   //QUEDA RESOLVER COMO EVITAR AUMENTAR TOP MARGIN/PADDING
+})
 
-
-tile1.addEventListener("mouseout", function(){
-
-    tile1.style.borderColor = '';
+link.addEventListener("mouseout", function(){
+    
+    link.style.backgroundColor = '';
+    link.style.color = '';
+    link.style.fontSize = "";
 });

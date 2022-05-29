@@ -25,7 +25,14 @@ margin: 0px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 0px 10px;
+padding: 0px 15px;
+margin-top: 0px;
+
+}
+
+.header-link{
+    text-decoration: none;
+
 }
 
 .logo{
@@ -68,7 +75,7 @@ li{
 
 .hero2{
     font-size: 18px;
-    max-width: 300px;
+    max-width: 200px;
     color: #e5e7eb;
     padding: 40px;
     display: flex;
@@ -95,6 +102,13 @@ margin-top: 20px;
     font-size: 20px;
     font-weight: bold;
     
+}
+
+.indent{
+    display: block;
+    padding-left: 10px;
+    text-align: left;
+    width: max-content;
 }
 
 .card{
@@ -135,6 +149,8 @@ padding: 5px;
 
 
 
+
+
 #img {
 max-width: inherit;
 max-height: inherit;
@@ -145,4 +161,9 @@ max-height: inherit;
 .hoover {
 transform: scale(1.2);
 border-color: blue;
+}
+
+
+p{
+    margin: 5px;;
 }
