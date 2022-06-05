@@ -66,6 +66,7 @@ li{
     font-size: 36px;
     font-weight: bold;
     color: #f9FAF8;
+    width: 100%;
     max-width: 400px;
     display: flex;
     justify-content: center;
@@ -75,14 +76,20 @@ li{
 
 .hero2{
     font-size: 18px;
+    width: 100%;
     max-width: 200px;
     color: #e5e7eb;
-    padding: 40px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #53565a33;
 }
+
+#img {
+    width: 100%;
+    height: auto;
+    }
 
 .cardtitle{
 text-align: center;
@@ -151,10 +158,7 @@ padding: 5px;
 
 
 
-#img {
-max-width: inherit;
-max-height: inherit;
-}
+
 
 
 
